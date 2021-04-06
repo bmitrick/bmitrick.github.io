@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!-- <DOCTYPE html>
 <!-- Not all programed by Blake Mitrick, some code is borrowed. If I borrowed your code and forgot to credit you, let me know and I'll fix it. Thank you -->
 <html lang="en">
 
@@ -11,6 +11,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </head>
 
 <body>
@@ -47,7 +49,15 @@
                 <h2 align="middle">Locate</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis magna hendrerit, pulvinar leo non, auctor ex. Fusce est magna, scelerisque id vulputate sed, luctus sed lorem. Nam eu arcu vitae mauris dictum suscipit. Praesent eget mi dignissim, dapibus risus sed, ultricies sem. Suspendisse nec luctus sem. Suspendisse potenti. Donec sit amet dui tempor, rhoncus magna at, ultricies ante. Nulla cursus sem enim, quis placerat tortor laoreet non. Etiam eros purus, commodo ac quam eu, dictum dignissim est. Nulla sed laoreet eros, eget suscipit erat. Phasellus viverra facilisis metus, vitae faucibus turpis viverra id. Nam non arcu leo.</p>            </div>
         </div>
-    </div>    
+    </div>
+    
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtfAKohk8EwR0gaNi0WWWotJZW1zSzTjM&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
 </section>
 
 <footer>
@@ -75,6 +85,15 @@
 <script src="js/owl.carousel.min.js"></script>
 
 <script>
+let map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: -34.397, lng: 150.644 },
+          zoom: 8,
+        });
+      }
+
     $('#my-carousel').owlCarousel({
         items:  1,
         margin: 10,

@@ -153,3 +153,19 @@ footer a:visited {
 footer a:hover {
    color:#000000;
 }
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+  width: 75%;
+  align-content: middle;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
