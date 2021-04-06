@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
+header{
+    background: #FFFFFF;   
+}
+ 
+section{
+    background: #FFFFFF;
+}
+
+footer{
+    background: #2c7ddf;  
+}
+
+h1 {
+    color: #2c7ddf;
+}
+
+h2 {
+    border-bottom: solid 2px;
+    color: #000000;
+}
+
+h3 {
+   color:#FFFFFF;
+}
+
+h4 {
+   color: #ff9393;
+   text-align: center;
+   font-size: 1.5em; 
+}
+
+h5 {
+   color: #cdcdcd;
+   text-align: center;
+   font-size: 1.25em; 
+}
+
+h6 {
+
+}
+
+value{
+    
+}
+
+object{
+    max-width: 100%;
+    max-height: inherit;
+}
+
+button.button{
+    background: #000000;
+    font-family: 'IM Fell Great Primer SC', serif; 
+}
+
+p {
+    color: #000000;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+   background: #ffffff;
+}
+
+ul.hover {
+   background: #dddddd;
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+img  {
+	max-width: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   margin-top: 50px;
+}
+
+a{
+   text-decoration: none;
+}
+
+h1 a:link{
+   color: #2c7ddf;
+}
+
+h1 a:visited{
+   color: #2c7ddf;
+}
+
+h1 a:hover {
+    color: #000000;
+}
+
+h1 a:active {
+    color: #777777;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+   color: #111111;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+a:active {
+    color: #777777;
+}
+
+footer a:link {
+   color: #ffffff;
+}
+
+footer a:visited {
+   color: #ffffff;
+}
+
+footer a:hover {
+   color:#000000;
+}
