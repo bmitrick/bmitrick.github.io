@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- Not all programed by Blake Mitrick, some code is borrowed. If I borrowed your code and forgot to credit you, let me know and I'll fix it. Thank you -->
+<html lang="en">
+
+<head>
+    <title>Blake Mitrick</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg"/>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="full" align="middle">
+                <h1><a href="index.html">Blake Mitrick</a></h1>
+            </div>
+        </div>
+    </div>
+</header>    
+
+<section>
+    <div class="container" > <!-- access bar -->
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="empHistory.html">Employment History</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container"> <!-- Main page -->
+            <div class="one-half">
+                <h2 align="middle">Emp History</h2>
+            </div>
+        </div>   
+    </div>
+</section>
+
+<footer>
+    <div class="container"> <!-- footer with links and such -->
+        <div class="row">
+            <div class="one-third">
+                <h3>Links</h3>
+                <a href="https://www.linkedin.com/in/blake-mitrick/">LinkedIn</a>
+                <br>
+                <a href="https://www.github.com/bmitrick/">GitHub</a>
+            </div>
+            <div class="one-third">
+                <h3>Contact Me</h3>
+                <a href = "mailto: bmitrick@gmail.com">bmitrick@gmail.com</a>
+            </div>
+            <div class="one-thrid">
+                <h3>Borrowed Code</h3>
+                <p><a href="https://github.com/joncoop">Base of CSS by Jon Cooper</a></p>
+                <p><a href="https://jquery.org/">jQuery by jQuery Foundation</a></p>
+                <p><a href="https://owlcarousel2.github.io/OwlCarousel2/">Owl Carousel by David Deutsch</a></p>
+            </div>
+        </div>    
+    </div>
+</footer>    
+    
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+    $('#my-carousel').owlCarousel({
+        items:  1,
+        margin: 10,
+        loop : true,
+        autoplay : true,
+        autoplayHoverPause : true,
+        autoplayTimeout : 3000,
+        dots : false,
+        nav : false,
+        height: 20,
+})
+</script>    
+</body>
+
+</html>
