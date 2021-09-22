@@ -29,7 +29,7 @@ h3 {
 
 h4 {
    color: #ff9393;
-   text-align: center;
+   text-align: left;
    font-size: 1.5em; 
 }
 
@@ -73,12 +73,26 @@ ul {
    background: #ffffff;
 }
 
+ul#work{
+ list-style-type: none;
+}
+
 ul.hover {
    background: #dddddd;
 }
 
-li {
+p#position {
+  color: #ff9393;
+  text-align: left;
+  font-size: 1.5em; 
+}
 
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
 }
 
 table {
